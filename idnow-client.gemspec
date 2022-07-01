@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'net-sftp', '~>2.1'
+  spec.add_runtime_dependency 'net-sftp', '<= 3'
 
   spec.required_ruby_version = '>= 2.5', '< 3.2'
 
